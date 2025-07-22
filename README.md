@@ -6,7 +6,9 @@ Instructions for Installing Linux (Ubuntu Distribution) on Windows using WSL
    <img width="1110" height="654" alt="image" src="https://github.com/user-attachments/assets/03f0f4dd-9c51-4caa-a1bf-de7ad9995a28" />
 
 ### 2. Run the WSL Installation Command:
->wsl --install
+```
+wsl --install
+```
 
 *_set username & password_
 
