@@ -41,7 +41,9 @@ sudo apt upgrade
 ```
 
 ### 2. Install more important packages
-`sudo apt install curl iptables build-essential git wget lz4 jq make gcc nano automake autoconf tmux htop nvme-cli pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev  -y`
+```
+sudo apt install curl iptables build-essential git wget lz4 jq make gcc nano automake autoconf tmux htop nvme-cli pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev  -y
+```
 
 ### 3. Install Docker
 ```
@@ -68,12 +70,16 @@ docker --version
 ```
 
 ### 4. Use root
-`sudo su`
-
+```
+sudo su
+```
 
 ## Access Ubuntu directories in Windows explorer
 To go to your Ubuntu directory using Windows explorer, Enter this in Windows Explorer Addressbar
-`\\wsl$`
+```
+\\wsl$
+```
+
 <img width="766" height="585" alt="image" src="https://github.com/user-attachments/assets/1eaa0d0f-0a78-43f7-add3-d67d9dade8e0" />
 
 _If you don't have access to root directory, Enter this command in terminal:_ `sudo chmod 755 /root`
